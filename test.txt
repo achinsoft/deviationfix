@@ -1,0 +1,13 @@
+Expected: All failed access to "%SystemRoot%\system32\inetsrv\" folder and for 64 bit systems also the "%SystemRoot%\sysWOW64\inetsrv\" must be logged.
+Result: Invalid auditing for "Everyone" on "F:\inetpub\wwwroot"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot"(Webroot and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions"(Webroot and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions\Authorization"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions\Ecommerce"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions\Eventing"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Extensions\ReferenceApp"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Services"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "F:\inetpub\wwwroot\Services"(Webroot and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "f:\inetpub\wwwroot\Services\Sibp.Services.Facade"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
+Invalid auditing for "Everyone" on "f:\inetpub\wwwroot\Services\Sibp.Services.Health"(Inetpub and sub-directories). All failure auditing is disabled. Should be enabled: XRQNWATBUDEPO
